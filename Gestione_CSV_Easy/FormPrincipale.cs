@@ -1,9 +1,8 @@
 namespace WinFormsCsvTest;
+using Core;
 
 public partial class FormPrincipale : Form
 {
-
-
     public FormPrincipale()
     {
         InitializeComponent();
@@ -111,7 +110,7 @@ public partial class FormPrincipale : Form
 
                 // 3. Chiama la logica di salvataggio
                 GestoreCsv.SalvaSuCsv(filePath, listaDaSalvare);
-
+                
                 MessageBox.Show($"Salvataggio completato!\n{listaDaSalvare.Count} record scritti.",
                     "Successo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
