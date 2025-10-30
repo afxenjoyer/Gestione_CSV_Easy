@@ -5,7 +5,9 @@ VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestione_CSV_Easy", "Gestione_CSV_Easy\Gestione_CSV_Easy.csproj", "{4CA93871-327D-4C2C-AE2C-3D2B09E947C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9DDCA43D-A250-4D8B-B7C3-EFD8FD0DADBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9DDCA43D-A250-4D8B-B7C3-EFD8FD0DADBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{8FDBFEDE-7F59-4607-B417-12BEFC3FA365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9DDCA43D-A250-4D8B-B7C3-EFD8FD0DADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DDCA43D-A250-4D8B-B7C3-EFD8FD0DADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DDCA43D-A250-4D8B-B7C3-EFD8FD0DADBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDBFEDE-7F59-4607-B417-12BEFC3FA365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDBFEDE-7F59-4607-B417-12BEFC3FA365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDBFEDE-7F59-4607-B417-12BEFC3FA365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDBFEDE-7F59-4607-B417-12BEFC3FA365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
